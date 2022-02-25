@@ -76,3 +76,6 @@ Yes, ZFS for example does a blocklevel checksumming which is a really cool
 feature. But you still might want an additional layer of integrity validation
 where you have more control. Also does a filesystem-internal checksumming not
 help you when you migrate data between filesystems.
+
+## License
+This project is distributed under [MIT](LICENSE) license.
