@@ -68,7 +68,8 @@ this on large files like movies.
 [RHash](https://github.com/rhash/RHash) offers basically the same
 functionality but implements it directly in C. This might make it a little
 faster at times, but depending on your distribution it might also be a tiny
-bit more difficult to install.
+bit more difficult to install. RecMD5 as below 100 line BASH script aims for
+maximum simplicity, deployability and portability.
 
 ## Aren't there filesystems doing checksumming?
 Yes, ZFS for example does a blocklevel checksumming which is a really cool
